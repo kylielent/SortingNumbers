@@ -7,6 +7,7 @@ This process is used in eclipse and through github.
 
 ##References and Literature
 
+
 ##Code
 ```java
 		public class Arrays {
@@ -93,16 +94,14 @@ The sorted array is: ( 505 579 2041 4009 4224 4944 ).
 ```
 
 ##Command Prompt
-Microsoft Windows [Version 6.1.7601]
-Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
-
+This is my flashdrive.
 C:\Users\LAB>E:
 
+Dir lets me get to the directory in my flashdrive
 E:\>dir
- Volume in drive E is STORE N GO
- Volume Serial Number is 0012-D687
 
- Directory of E:\
+This is the directory of my flashdrive
+Directory of E:\
 
 10/13/2015  07:36 PM    <DIR>          Workspace
 02/06/2015  07:43 AM    <DIR>          College Assignments
@@ -114,12 +113,13 @@ E:\>dir
                0 File(s)              0 bytes
                7 Dir(s)   3,537,096,704 bytes free
 
+To choose the folder arrays I type in cd and then type in arrays
 E:\>cd Arrays
 
+Now I can type dir to search the directory of the arrays folder
 E:\Arrays>dir
- Volume in drive E is STORE N GO
- Volume Serial Number is 0012-D687
-
+ 
+ This is the directory of the folder arrays
  Directory of E:\Arrays
 
 11/19/2015  06:08 PM    <DIR>          .
@@ -130,11 +130,11 @@ E:\Arrays>dir
                0 File(s)              0 bytes
                5 Dir(s)   3,537,096,704 bytes free
 
+To get to the folder inside the folder arrays I type cd to choose it
 E:\Arrays>cd Arrays
 
+I type dir to see the directory of Arrays inside Arrays
 E:\Arrays\Arrays>dir
- Volume in drive E is STORE N GO
- Volume Serial Number is 0012-D687
 
  Directory of E:\Arrays\Arrays
 
@@ -147,26 +147,35 @@ E:\Arrays\Arrays>dir
                2 File(s)            614 bytes
                4 Dir(s)   3,537,096,704 bytes free
 
+Here is where I configure my user.name and email so the computer knows who I am
 E:\Arrays\Arrays>git config user.name "kylielent"
 
 E:\Arrays\Arrays>git config user.email "lentk@student.swosu.edu"
 
+Here is where I create my repository from GitHub
 E:\Arrays\Arrays>echo # SortingNumbers >> README.md
 
+I use the command git init to initilize the repository on my flashdrive
 E:\Arrays\Arrays>git init
 Initialized empty Git repository in E:/Arrays/Arrays/.git/
 
+Here I add the readme file
 E:\Arrays\Arrays>git add README.md
 
+I use the command to commit my changes
 E:\Arrays\Arrays>git commit -m "first commit"
 [master (root-commit) 4e69959] first commit
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 
+Here it where I add the origin 
 E:\Arrays\Arrays>git remote add origin https://github.com/kylielent/SortingNumbe
 rs.git
 
+Here is where I push to he origin master
 E:\Arrays\Arrays>git push -u origin master
+
+I login into github using my name and password
 Username for 'https://github.com': kylielent
 Password for 'https://kylielent@github.com':
 Counting objects: 3, done.
@@ -176,8 +185,10 @@ To https://github.com/kylielent/SortingNumbers.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
 
+Here I add what I have been working on
 E:\Arrays\Arrays>git add .
 
+Here I commit my changes of what code I have been working on
 E:\Arrays\Arrays>git commit -m "got code working."
 [master f6b1d57] got code working.
  4 files changed, 108 insertions(+)
@@ -186,6 +197,7 @@ E:\Arrays\Arrays>git commit -m "got code working."
  create mode 100644 bin/Arrays.class
  create mode 100644 src/Arrays.java
 
+Here I git push to push it all to the master 
 E:\Arrays\Arrays>git push
 warning: push.default is unset; its implicit value has changed in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
@@ -208,6 +220,7 @@ See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
 
+Here I have to login again
 Username for 'https://github.com': kylielent
 Password for 'https://kylielent@github.com':
 Counting objects: 8, done.
@@ -218,16 +231,20 @@ Total 8 (delta 0), reused 0 (delta 0)
 To https://github.com/kylielent/SortingNumbers.git
    4e69959..f6b1d57  master -> master
 
+Here I pulled down just to make sure I am caught up on my pushing and pulling
 E:\Arrays\Arrays>git pull
 Already up-to-date.
 
+Here I add what I have done since I have last added
 E:\Arrays\Arrays>git add .
 
+I commit my changes so that they are saved
 E:\Arrays\Arrays>git commit -m "got code working and cleaned it up. all done"
 [master f1c67d1] got code working and cleaned it up. all done
  2 files changed, 75 insertions(+), 85 deletions(-)
  rewrite src/Arrays.java (67%)
 
+Here I push my code to the master branch
 E:\Arrays\Arrays>git push
 warning: push.default is unset; its implicit value has changed in
 Git 2.0 from 'matching' to 'simple'. To squelch this message
@@ -249,6 +266,7 @@ remote branch that 'git pull' uses to update the current branch.
 See 'git help config' and search for 'push.default' for further information.
 (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
 'current' instead of 'simple' if you sometimes use older versions of Git)
+
 
 Username for 'https://github.com': kylielent
 Password for 'https://kylielent@github.com':
@@ -263,6 +281,6 @@ To https://github.com/kylielent/SortingNumbers.git
 E:\Arrays\Arrays>
 
 ##Summary
-The purpose of this assignment...
+The purpose of this assignment was to create a report in markdown format. We had to use 
 
 
