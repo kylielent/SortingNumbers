@@ -266,24 +266,3 @@ E:\Arrays\Arrays>
 The purpose of this assignment...
 
 
-# Project 2
-## The addition game
-
-##Introduction
-
-##References and Literature
-
-##Code
-```java
-```
-
-##Console
-```java
-```
-
-##Command Prompt
-
-
-##Summary
-
-
