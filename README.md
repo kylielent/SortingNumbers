@@ -5,6 +5,8 @@
 This is code that uses a for loop, a custom method call and an array. 
 This process is used in eclipse and through github.
 
+##References and Literature
+
 ##Code
 ```java
 		public class Arrays {
@@ -262,3 +264,26 @@ E:\Arrays\Arrays>
 
 ##Summary
 The purpose of this assignment...
+
+
+# Project 2
+## The addition game
+
+##Introduction
+
+##References and Literature
+
+##Code
+```java
+```
+
+##Console
+```java
+```
+
+##Command Prompt
+
+
+##Summary
+
+
