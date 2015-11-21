@@ -91,6 +91,7 @@ The sorted array is: ( 505 579 2041 4009 4224 4944 ).
 ```
 
 ##Command Prompt
+```
 This is my flashdrive.
 C:\Users\LAB>E:
 
@@ -277,6 +278,7 @@ To https://github.com/kylielent/SortingNumbers.git
 
 E:\Arrays\Arrays>
 And we are done!
+```
 
 ##Summary
 The purpose of this assignment was to create a report in markdown format. We had to take our knowledge of a for loop and methods calls to form with arrays and sort numbers using all three in our code. It was a little hard to understand at first, but after a few practice tries it was all good. We also used println statements and if and else statements, but we should know those but heart since we have been doing them a lot.
